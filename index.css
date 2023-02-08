@@ -1,0 +1,47 @@
+:root{
+    --red-bg: #ed564b;
+    --text-light:#aaa;
+    --text-red: ;
+    --border-red: ;
+    --bg-dark: #3b3b3b;
+    --bg-black: #292929;
+}
+
+.navmobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navmobile{
+        display: block;
+
+    }
+    .nav {
+        display: none;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon-prev {
+    background-color: var(--red-bg);
+    opacity: 1;
+    margin: auto 0;
+    height: 7rem;
+    width: 3rem;
+}
+
+.icon-next{
+    background-color: var(--red-bg);
+    opacity: 1;
+    height: 7rem;
+    width: 3rem;
+    margin: auto 0;
+}
